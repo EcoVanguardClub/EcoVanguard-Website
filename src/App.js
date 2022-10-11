@@ -14,11 +14,10 @@ function App() {
     <>
       <QueryClientProvider client={queryClient}>
         <Navbar />
-        <AdminLocation />
-        {/* <FormContextProvider>
+        <FormContextProvider>
           <ScrollToTop />
           <Outlet />
-        </FormContextProvider> */}
+        </FormContextProvider>
         <Footer />
       </QueryClientProvider>
     </>
