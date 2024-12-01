@@ -5,6 +5,7 @@ import { Outlet } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 import FormContextProvider from "./context/FormContext";
 import ScrollToTop from "./utils/scrollToTop";
+import AdminLocation from "./pages/admin/Pages/AdminLocation/AdminLocation";
 
 const queryClient = new QueryClient();
 

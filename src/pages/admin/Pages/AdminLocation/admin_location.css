@@ -1,0 +1,66 @@
+.location_container{
+    max-width: 750px;
+    margin: auto;
+    padding: 15px;
+}
+
+section.column{
+    display: flex;
+    margin: 15px 0;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form_control, .component{
+    width: 320px;
+    margin-bottom: 15px;
+}
+
+.select{
+    width: 100%;
+}
+
+label{
+    font-size: 15px;
+}
+
+.location_details{
+    max-width: 750px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.location_heading{
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.details p{
+    font-size: 16px;
+}
+
+.action_buttons{
+    width: 70px;
+    display: flex;
+    gap: 15px;
+}
+
+.action{
+    width: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .form_control{
+        max-width: 290px;
+    }
+}
